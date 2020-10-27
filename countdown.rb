@@ -2,16 +2,16 @@
 
 
 
-def countdown(x, sleep_method)
+def countdown(x)
   while x > 0
     puts "#{x} SECOND(S)!"
-    sleep_method
+    countdown_with_sleep(sec)
     # sleep 1
     x -= 1
   end
   "HAPPY NEW YEAR!"
 end
 
-sleep_method = def countdown_with_sleep(sec)
+def countdown_with_sleep(sec)
   sleep(sec)
 end
