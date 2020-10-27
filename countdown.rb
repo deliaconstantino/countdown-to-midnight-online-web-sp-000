@@ -2,7 +2,7 @@
 
 
 
-def countdown(x)
+def countdown(x, sleep_method)
   while x > 0
     puts "#{x} SECOND(S)!"
     sleep_method
